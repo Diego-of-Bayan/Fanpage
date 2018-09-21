@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: #c8bd83;
 }
 a {
     text-decoration: none;
@@ -12,8 +12,12 @@ a {
 
 .main {
     height: 100%;
+    background-image: url(https://www.productionvoices.com/wp-content/uploads/2011/08/GrandStrings1.jpg);
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+rightPane {
+    background-image: url(http://www.emmapianostudio.com/images/piano.gif);
 }
