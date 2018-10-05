@@ -21,3 +21,21 @@ a {
 rightPane {
     background-image: url(http://www.emmapianostudio.com/images/piano.gif);
 }
+.header {
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    display: flex;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.thumbnail-image {
+    height: 150px;
+}
