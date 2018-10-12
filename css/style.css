@@ -9,10 +9,13 @@ body {
 a {
     text-decoration: none;
 }
-
-.main {
-    height: 100%;
-    background-image: url(https://www.productionvoices.com/wp-content/uploads/2011/08/GrandStrings1.jpg);
+#parent {
+    display: flex;
+    justify-content: center;
+}
+#titleImage {
+    padding-top: 10px;
+    box-shadow: 25px 25px 30px 0 black;
 }
 .social-image{
     width: 30px;
@@ -23,10 +26,14 @@ rightPane {
 }
 .header {
     text-align: center;
+    padding: 10px;
+    font-size:30px;
 }
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: #4b3d1c;
+    font-size: 20px;
 }
 .social {
     display: flex;
